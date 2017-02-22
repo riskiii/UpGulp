@@ -11,5 +11,5 @@ tests/mocks/env/
 # Development files
 /node_modules
 /assets/vendor/
-
+/bower_components/
 .idea/
