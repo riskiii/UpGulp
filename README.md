@@ -18,11 +18,21 @@ It includes:
     - You can name the file whatever you want via the Configuration file
 - Styles
     - Uses [gulp-sourcemaps](https://www.npmjs.com/package/gulp-sourcemaps) - for debug ease
-    - Loads in both [Bourbon](https://www.npmjs.com/package/bourbon) and [Neat](https://www.npmjs.com/package/bourbon-neat)
+    - Loads in [Suse](http://susy.oddbird.net/) 
     - Process with [gulp-sass](https://www.npmjs.com/package/gulp-sass)
     - Runs [postcss](https://www.npmjs.com/package/postcss)
     - Includes [sass-rem](https://www.npmjs.com/package/sass-rem)
     - [Autoprefix](https://github.com/postcss/autoprefixer) to ensure we get the cross-browser prefixes
+    - [adaptive-placeholders](https://github.com/zellwk/adaptive-placeholders)
+    - [breakpoint-sass](http://breakpoint-sass.com/)
+    - [mappy-breakpoints](https://github.com/zellwk/mappy-breakpoints)
+    - [masonry](http://masonry.desandro.com/)
+    - [modular-scale](https://github.com/modularscale/modularscale-sass)
+    - [normalize-scss](https://github.com/JohnAlbin/normalize-scss)
+    - [sass-hidpi](https://github.com/kaelig/hidpi)
+    - [susy](http://susy.oddbird.net/)
+    - [typi](https://github.com/zellwk/typi)
+    - [vertical-rhythms-without-compass](https://github.com/zellwk/vertical-rhythms-without-compass)
     - Includes linting using [gulp-sass-lint](https://www.npmjs.com/package/gulp-sass-lint)
     - Copy and rename the full stylesheet with a `.min` suffix
     - It minifies to optimize the stylesheet
@@ -34,11 +44,10 @@ It includes:
 
 ### Sass Features
 
-This gulp starter has Bourbon, Neat, and Sass REM baked into it.  To use these in your `style.scss` file and project, do the following:
+This gulp starter has Suse, and Sass REM baked into it.  To use these in your `style.scss` file and project, do the following:
 
 ```
-@import 'bourbon';
-@import 'neat';
+@import '../../bower_components/suse/sass/suse';
 @import '../../node_modules/sass-rem/rem';
 ```
 
